@@ -44,8 +44,6 @@
 - 🌙 **Dark/Light Mode** - চোখের জন্য আরামদায়ক
 - 💻 **লাইভ কোড এডিটর** - Sandboxed environment-এ কোড run করুন
 - 🎯 **প্র্যাকটিস এক্সারসাইজ** - হাতে-কলমে প্র্যাকটিস করুন
-- 📊 **Progress Tracking** - আপনার অগ্রগতি track করুন
-- 🔍 **Search Functionality** - দ্রুত টপিক খুঁজুন
 - 📖 **বিস্তারিত উদাহরণ** - প্রতিটি concept-এর জন্য উদাহরণ
 
 ## ✨ ফিচার
@@ -59,9 +57,9 @@
   - 🔢 Line numbers
   - ⚠️ Error detection
   - ⌨️ Keyboard shortcuts (Ctrl+/ for comment, Ctrl+Enter for run)
-- 🎯 **প্র্যাকটিস এক্সারসাইজ** - 48টি টাইপিং এক্সারসাইজ
+- 🎯 **প্র্যাকটিস এক্সারসাইজ** - 30+ টাইপিং এক্সারসাইজ (Beginner, Intermediate, Advanced)
 - ✅ **গাইডেড প্রজেক্ট** - 11টি ধাপে ধাপে প্রজেক্ট
-- 📝 **কোড প্যাটার্ন প্র্যাকটিস** - 40টি কোড প্যাটার্ন
+- 📝 **কোড প্যাটার্ন প্র্যাকটিস** - Common JavaScript patterns practice
 - 🌙 **Dark/Light Mode** - VS Code-style dark theme সহ
 - 📱 **Responsive Design** - সব ডিভাইসে পারফেক্ট কাজ করে
 - 📋 **টেবল অফ কনটেন্ট** - সহজে নেভিগেশন
@@ -276,7 +274,6 @@ cd Learn-Javascript-in-Bengali
 #### শিক্ষকদের জন্য:
 - 📝 Teaching material
 - 🎓 Student assignments
-- 📊 Progress tracking
 
 ## 📁 প্রজেক্ট স্ট্রাকচার
 
@@ -286,9 +283,12 @@ Learn-Javascript-in-Bengali/
 ├── css/
 │   └── style.css          # All styles - Modern CSS with variables
 ├── js/
-│   ├── lessons.js         # All 31 lessons content (Bengali)
+│   ├── lessons.js         # All lesson content (Bengali)
 │   ├── playground.js      # Code playground - Sandboxed execution
-│   └── main.js            # Main app logic - Navigation, Theme, etc.
+│   ├── main.js            # Main app logic - Navigation, Theme, etc.
+│   ├── typing-practice.js # Typing practice and guided projects
+│   ├── advanced-editor.js # Advanced code editor functionality
+│   └── code-editor-enhanced.js # Enhanced editor features
 ├── .gitignore             # Git ignore file
 ├── README.md              # Project documentation
 ├── DEPLOYMENT.md          # Deployment guide
@@ -301,9 +301,12 @@ Learn-Javascript-in-Bengali/
 
 - **index.html**: Main HTML structure, header, sidebar, content area
 - **css/style.css**: All styling, dark/light theme, responsive design
-- **js/lessons.js**: All 31 lessons with Bengali content, examples, exercises
+- **js/lessons.js**: All lesson content with Bengali text, examples, exercises
 - **js/playground.js**: Code editor, sandbox execution, output display
 - **js/main.js**: Navigation, theme toggle, lesson loading, event handlers
+- **js/typing-practice.js**: Typing practice exercises and guided projects functionality
+- **js/advanced-editor.js**: Advanced code editor with preview functionality
+- **js/code-editor-enhanced.js**: Enhanced editor features (syntax highlighting, autocomplete, error detection)
 
 ## 🛠️ টেকনোলজি স্ট্যাক
 
@@ -330,10 +333,10 @@ Learn-Javascript-in-Bengali/
 
 ## 📊 প্রজেক্ট Statistics
 
-- 📚 **31 Lessons** - Complete JavaScript course
-- 💻 **3 Main Files** - Clean code structure
+- 📚 **32+ Lessons** - Complete JavaScript course
+- 💻 **6 JavaScript Files** - Clean modular code structure
 - 📝 **1000+ Code Examples** - Practical examples
-- 🎯 **50+ Exercises** - Practice problems
+- 🎯 **30+ Typing Exercises** - Practice exercises across 3 difficulty levels
 - 🌙 **2 Themes** - Dark & Light mode
 - 📱 **Fully Responsive** - All devices supported
 
