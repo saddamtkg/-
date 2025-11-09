@@ -7,7 +7,7 @@ const lessons = [
     },
     {
         id: 'intro',
-        title: '🔰 ১. জাভাস্ক্রিপ্ট পরিচিতি',
+        title: '🔰 জাভাস্ক্রিপ্ট পরিচিতি',
         category: 'বেসিক',
         content: `
             <h2>🔰 জাভাস্ক্রিপ্ট কী?</h2>
@@ -38,7 +38,7 @@ const lessons = [
     },
     {
         id: 'setup',
-        title: '📍 ২. জাভাস্ক্রিপ্ট সেটআপ',
+        title: '📍 জাভাস্ক্রিপ্ট সেটআপ',
         category: 'বেসিক',
         content: `
             <h2>📍 কোথায় জাভাস্ক্রিপ্ট লিখব?</h2>
@@ -67,7 +67,7 @@ const lessons = [
     },
     {
         id: 'variables',
-        title: '💡 ৩. ভ্যারিয়েবল (Variables)',
+        title: '💡 ভ্যারিয়েবল (Variables)',
         category: 'বেসিক',
         content: `
             <h2>💡 ভ্যারিয়েবল কী?</h2>
@@ -127,7 +127,7 @@ country = "India"; // ❌ Error! পরিবর্তন করা যায়
     },
     {
         id: 'datatypes',
-        title: '🧩 ৪. ডেটা টাইপ (Data Types)',
+        title: '🧩 ডেটা টাইপ (Data Types)',
         category: 'বেসিক',
         content: `
             <h2>🧩 ডেটা টাইপ</h2>
@@ -199,7 +199,7 @@ console.log(typeof emptyValue);  // "object"</code></pre>
     },
     {
         id: 'operators',
-        title: '⚙️ ৫. অপারেটর (Operators)',
+        title: '⚙️ অপারেটর (Operators)',
         category: 'বেসিক',
         content: `
             <h2>⚙️ অপারেটর</h2>
@@ -286,7 +286,7 @@ x %= 5;  // x = x % 5 → 1</code></pre>
     },
     {
         id: 'conditionals',
-        title: '🧠 ৬. কন্ডিশনাল স্টেটমেন্ট (Conditionals)',
+        title: '🧠 কন্ডিশনাল স্টেটমেন্ট (Conditionals)',
         category: 'বেসিক',
         content: `
             <h2>🧠 কন্ডিশনাল স্টেটমেন্ট</h2>
@@ -357,7 +357,7 @@ switch (day) {
     },
     {
         id: 'loops',
-        title: '🔁 ৭. লুপ (Loops)',
+        title: '🔁 লুপ (Loops)',
         category: 'বেসিক',
         content: `
             <h2>🔁 লুপ</h2>
@@ -437,7 +437,7 @@ for (let i = 1; i <= 10; i++) {
     },
     {
         id: 'functions',
-        title: '🧩 ৮. ফাংশন (Functions)',
+        title: '🧩 ফাংশন (Functions)',
         category: 'বেসিক',
         content: `
             <h2>🧩 ফাংশন</h2>
@@ -512,7 +512,7 @@ console.log(calculate(5, 3, multiply));  // 15</code></pre>
     },
     {
         id: 'arrays',
-        title: '📊 ৯. অ্যারে (Arrays)',
+        title: '📊 অ্যারে (Arrays)',
         category: 'বেসিক',
         content: `
             <h2>📊 অ্যারে</h2>
@@ -602,7 +602,7 @@ console.log(combined); // [1, 2, 3, 4, 5, 6]</code></pre>
     },
     {
         id: 'objects',
-        title: '🗂️ ১০. অবজেক্ট (Objects)',
+        title: '🗂️ অবজেক্ট (Objects)',
         category: 'বেসিক',
         content: `
             <h2>🗂️ অবজেক্ট</h2>
@@ -713,7 +713,7 @@ console.log(person.address?.zip); // undefined (optional chaining)</code></pre>
     },
     {
         id: 'dom',
-        title: '🌳 ১১. DOM ম্যানিপুলেশন',
+        title: '🌳 DOM ম্যানিপুলেশন',
         category: 'DOM & Events',
         content: `
             <h2>🌳 DOM (Document Object Model)</h2>
@@ -814,7 +814,7 @@ newDiv.remove();</code></pre>
     },
     {
         id: 'events',
-        title: '🎯 ১২. ইভেন্ট হ্যান্ডলিং',
+        title: '🎯 ইভেন্ট হ্যান্ডলিং',
         category: 'DOM & Events',
         content: `
             <h2>🎯 ইভেন্ট হ্যান্ডলিং</h2>
@@ -923,7 +923,7 @@ list.addEventListener("click", function(event) {
     },
     {
         id: 'forms',
-        title: '📝 ১৩. ফর্ম ভ্যালিডেশন',
+        title: '📝 ফর্ম ভ্যালিডেশন',
         category: 'DOM & Events',
         content: `
             <h2>📝 ফর্ম ভ্যালিডেশন</h2>
@@ -1016,7 +1016,7 @@ emailInput.addEventListener("input", function() {
     },
     {
         id: 'modern-js',
-        title: '🚀 ১৪. Modern JavaScript (ES6+)',
+        title: '🚀 Modern JavaScript (ES6+)',
         category: 'Advanced',
         content: `
             <h2>🚀 Modern JavaScript Features (ES6+)</h2>
@@ -1156,7 +1156,7 @@ console.log(name); // "Saddam"</code></pre>
     },
     {
         id: 'async',
-        title: '⏳ ১৭. Async/Await & Promises',
+        title: '⏳ Async/Await & Promises',
         category: 'Advanced',
         content: `
             <h2>⏳ Asynchronous JavaScript</h2>
@@ -1253,7 +1253,7 @@ Promise.allSettled([promise1, promise2])
     },
     {
         id: 'localstorage',
-        title: '💾 ১৮. LocalStorage & SessionStorage',
+        title: '💾 LocalStorage & SessionStorage',
         category: 'Advanced',
         content: `
             <h2>💾 LocalStorage & SessionStorage</h2>
@@ -1327,8 +1327,506 @@ sessionStorage.clear();</code></pre>
         `
     },
     {
+        id: 'typing-practice',
+        title: '⌨️ টাইপিং প্র্যাকটিস (Typing Practice)',
+        category: 'Practice',
+        content: `
+            <h2>⌨️ টাইপিং প্র্যাকটিস</h2>
+            <p>দেখে দেখে কোড টাইপ করার মাধ্যমে JavaScript লেখার pattern মুখস্ত করুন। এটি আপনাকে help করবে:</p>
+            <ul>
+                <li>✅ JavaScript syntax মুখস্ত করতে</li>
+                <li>✅ Code patterns শিখতে</li>
+                <li>✅ Typing speed বাড়াতে</li>
+                <li>✅ Muscle memory তৈরি করতে</li>
+                <li>✅ নিজে নিজে কোড লিখতে শিখতে</li>
+            </ul>
+
+            <div class="alert alert-info">
+                <strong>💡 টিপ:</strong> প্রতিদিন অন্তত ১০-১৫ মিনিট typing practice করুন। এটি আপনাকে দ্রুত উন্নত করবে!
+            </div>
+
+            <h3>কিভাবে ব্যবহার করবেন?</h3>
+            <ol>
+                <li>নিচের <strong>"Start Practice"</strong> বাটনে ক্লিক করুন</li>
+                <li>উপরে দেখানো কোডটি <strong>নিচের editor-এ</strong> টাইপ করুন</li>
+                <li>সঠিক টাইপ করলে সবুজ, ভুল হলে লাল হবে</li>
+                <li>সম্পূর্ণ কোড টাইপ শেষ করলে next exercise-এ যান</li>
+            </ol>
+
+            <div class="interactive-demo" style="margin: 20px 0;">
+                <h3>📝 Practice Exercise</h3>
+                <div style="margin-bottom: 15px;">
+                    <label>Difficulty Level:</label>
+                    <select id="typingDifficulty" style="padding: 8px; margin-left: 10px; border-radius: 5px;">
+                        <option value="beginner">Beginner (শুরুকারী)</option>
+                        <option value="intermediate">Intermediate (মধ্যম)</option>
+                        <option value="advanced">Advanced (উন্নত)</option>
+                    </select>
+                    <button class="btn btn-primary" onclick="startTypingPractice()" style="margin-left: 10px;">Start Practice</button>
+                </div>
+                
+                <div id="typingPracticeContainer" style="display: none;">
+                    <div style="background: #1e1e1e; color: #d4d4d4; padding: 15px; border-radius: 8px; margin-bottom: 10px; font-family: 'Consolas', monospace; white-space: pre-wrap; min-height: 100px;" id="typingTarget">
+                        <!-- Target code will be shown here -->
+                    </div>
+                    
+                    <div style="margin-bottom: 10px;">
+                        <label>এখানে টাইপ করুন:</label>
+                        <textarea id="typingInput" style="width: 100%; min-height: 150px; font-family: 'Consolas', monospace; padding: 10px; border: 2px solid #ccc; border-radius: 5px; font-size: 14px;" placeholder="উপরে দেখানো কোডটি এখানে টাইপ করুন..."></textarea>
+                    </div>
+                    
+                    <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                        <button class="btn btn-success" onclick="checkTypingProgress()">Check Progress</button>
+                        <button class="btn btn-secondary" onclick="resetTypingPractice()">Reset</button>
+                        <button class="btn btn-primary" onclick="showTypingHint()">💡 Hint</button>
+                        <button class="btn btn-secondary" onclick="nextTypingExercise()">Next Exercise →</button>
+                    </div>
+                    
+                    <div id="typingStats" style="background: #f0f0f0; padding: 10px; border-radius: 5px; margin-top: 10px;">
+                        <strong>Stats:</strong> 
+                        <span id="typingProgress">0%</span> Complete | 
+                        <span id="typingAccuracy">0%</span> Accuracy | 
+                        <span id="typingTime">0s</span> Time
+                    </div>
+                    
+                    <div id="typingFeedback" style="margin-top: 10px;"></div>
+                </div>
+            </div>
+
+            <h3>Practice Exercises (Beginner Level)</h3>
+            <div class="exercise-box">
+                <h4>Exercise 1: Variables</h4>
+                <p>ভ্যারিয়েবল declaration এবং assignment practice করুন</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('variables')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 2: Conditionals</h4>
+                <p>if/else statements practice করুন</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('conditionals')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 3: Loops</h4>
+                <p>for loops practice করুন</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('loops')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 4: Functions</h4>
+                <p>Function declaration এবং calling practice করুন</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('functions')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 5: Arrays</h4>
+                <p>Array methods এবং manipulation practice করুন</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('arrays')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 6: Objects</h4>
+                <p>Object creation এবং methods practice করুন</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('objects')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 7: Strings</h4>
+                <p>String methods practice করুন</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('strings')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 8: Operators</h4>
+                <p>Arithmetic operators practice করুন</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('operators')">Start Exercise</button>
+            </div>
+
+            <h3>Practice Exercises (Intermediate Level)</h3>
+            <div class="exercise-box">
+                <h4>Exercise 9: Advanced Conditionals</h4>
+                <p>if/else if/else এবং switch statements</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('conditionals')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 10: Advanced Loops</h4>
+                <p>forEach, for...of loops practice</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('loops')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 11: Arrow Functions</h4>
+                <p>Arrow functions এবং callbacks</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('functions')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 12: Array Methods</h4>
+                <p>map, filter, reduce methods</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('arrays')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 13: Object Destructuring</h4>
+                <p>Object destructuring practice</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('objects')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 14: String Methods</h4>
+                <p>Advanced string manipulation</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('strings')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 15: Date Object</h4>
+                <p>Date এবং time manipulation</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('date')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 16: Math Object</h4>
+                <p>Math methods এবং operations</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('math')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 17: DOM Manipulation</h4>
+                <p>DOM elements select এবং modify</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('dom')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 18: Event Handling</h4>
+                <p>Event listeners এবং handlers</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('events')">Start Exercise</button>
+            </div>
+
+            <h3>Practice Exercises (Advanced Level)</h3>
+            <div class="exercise-box">
+                <h4>Exercise 19: Template Literals</h4>
+                <p>Template literals এবং destructuring</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('variables')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 20: Switch Statements</h4>
+                <p>Switch case statements</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('conditionals')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 21: Array Chaining</h4>
+                <p>Method chaining practice</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('loops')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 22: Async/Await</h4>
+                <p>Async functions এবং await</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('async')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 23: Classes</h4>
+                <p>ES6 classes এবং inheritance</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('objects')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 24: Advanced Strings</h4>
+                <p>String methods chaining</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('strings')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 25: Date Calculations</h4>
+                <p>Date arithmetic এবং calculations</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('date')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 26: Math Functions</h4>
+                <p>Custom math functions</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('math')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 27: Promises</h4>
+                <p>Promise creation এবং handling</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('promises')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 28: Error Handling</h4>
+                <p>try/catch/finally blocks</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('error')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 29: JSON</h4>
+                <p>JSON.stringify এবং JSON.parse</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('json')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 30: Closures</h4>
+                <p>Closure functions practice</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('closure')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 31: this Keyword</h4>
+                <p>this binding এবং context</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('this')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 32: Regular Expressions</h4>
+                <p>Regex patterns এবং validation</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('regex')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 33: LocalStorage</h4>
+                <p>LocalStorage operations</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('localStorage')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 34: Timers</h4>
+                <p>setTimeout এবং setInterval</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('timers')">Start Exercise</button>
+            </div>
+
+            <div class="exercise-box">
+                <h4>Exercise 35: Fetch API</h4>
+                <p>Fetch API এবং async operations</p>
+                <button class="btn btn-primary" onclick="loadTypingExercise('fetch')">Start Exercise</button>
+            </div>
+
+            <div class="alert alert-success">
+                <strong>✅ Practice Tip:</strong> প্রতিদিন ৫-১০ টি exercise complete করুন। ২ সপ্তাহে আপনি JavaScript patterns মুখস্ত করতে পারবেন!
+            </div>
+        `
+    },
+    {
+        id: 'guided-projects',
+        title: '🎯 Guided Projects (দেখে দেখে প্রজেক্ট তৈরি)',
+        category: 'Projects',
+        content: `
+            <h2>🎯 Guided Projects - দেখে দেখে প্রজেক্ট তৈরি করুন</h2>
+            <p>এখানে আপনি step-by-step দেখে দেখে প্রজেক্ট তৈরি করতে শিখবেন। প্রতিটি step-এ আপনি কোড copy করে, modify করে এবং run করে দেখবেন কী হচ্ছে।</p>
+
+            <div class="alert alert-info">
+                <strong>💡 কিভাবে কাজ করে:</strong>
+                <ol>
+                    <li>প্রতিটি step-এ দেখানো কোডটি copy করুন</li>
+                    <li>Code editor-এ paste করুন</li>
+                    <li>কোডটি modify করে experiment করুন</li>
+                    <li>Run করে দেখুন output</li>
+                    <li>Next step-এ যান</li>
+                </ol>
+            </div>
+
+            <h3>🎨 Project 1: Simple Calculator</h3>
+            <div class="exercise-box">
+                <p><strong>Description:</strong> একটি simple calculator তৈরি করুন যেখানে যোগ, বিয়োগ, গুণ, ভাগ করা যাবে।</p>
+                <p><strong>Skills:</strong> Variables, Functions, DOM Manipulation, Events</p>
+                <p><strong>Time:</strong> ২০-৩০ মিনিট</p>
+                <p><strong>Steps:</strong> ৫ টি steps</p>
+                <button class="btn btn-primary" onclick="startGuidedProject('calculator')">Start Project →</button>
+            </div>
+
+            <h3>📝 Project 2: Todo List App</h3>
+            <div class="exercise-box">
+                <p><strong>Description:</strong> একটি Todo List app তৈরি করুন যেখানে todo add, delete, complete করা যাবে।</p>
+                <p><strong>Skills:</strong> Arrays, DOM, Events, LocalStorage</p>
+                <p><strong>Time:</strong> ৪০-৫০ মিনিট</p>
+                <p><strong>Steps:</strong> ৮ টি steps</p>
+                <button class="btn btn-primary" onclick="startGuidedProject('todo')">Start Project →</button>
+            </div>
+
+            <h3>🎲 Project 3: Random Quote Generator</h3>
+            <div class="exercise-box">
+                <p><strong>Description:</strong> Random quote generator তৈরি করুন যেখানে button click করলে random quote দেখাবে।</p>
+                <p><strong>Skills:</strong> Arrays, Math.random(), DOM, Events</p>
+                <p><strong>Time:</strong> ১৫-২০ মিনিট</p>
+                <p><strong>Steps:</strong> ৪ টি steps</p>
+                <button class="btn btn-primary" onclick="startGuidedProject('quotes')">Start Project →</button>
+            </div>
+
+            <h3>⏱️ Project 4: Countdown Timer</h3>
+            <div class="exercise-box">
+                <p><strong>Description:</strong> একটি countdown timer তৈরি করুন যেখানে time set করে countdown করা যাবে।</p>
+                <p><strong>Skills:</strong> setInterval, DOM, Events, Date</p>
+                <p><strong>Time:</strong> ৩০-৪০ মিনিট</p>
+                <p><strong>Steps:</strong> ৬ টি steps</p>
+                <button class="btn btn-primary" onclick="startGuidedProject('timer')">Start Project →</button>
+            </div>
+
+            <h3>🔐 Project 5: Password Generator</h3>
+            <div class="exercise-box">
+                <p><strong>Description:</strong> একটি password generator তৈরি করুন যেখানে customizable password generate করা যাবে।</p>
+                <p><strong>Skills:</strong> Math.random(), Strings, DOM, Events</p>
+                <p><strong>Time:</strong> ২০-৩০ মিনিট</p>
+                <p><strong>Steps:</strong> ৪ টি steps</p>
+                <button class="btn btn-primary" onclick="startGuidedProject('password')">Start Project →</button>
+            </div>
+
+            <h3>📊 Project 6: BMI Calculator</h3>
+            <div class="exercise-box">
+                <p><strong>Description:</strong> একটি BMI calculator তৈরি করুন যেখানে weight এবং height দিয়ে BMI calculate করা যাবে।</p>
+                <p><strong>Skills:</strong> Math, Calculations, DOM, Events</p>
+                <p><strong>Time:</strong> ১৫-২০ মিনিট</p>
+                <p><strong>Steps:</strong> ২ টি steps</p>
+                <button class="btn btn-primary" onclick="startGuidedProject('bmi')">Start Project →</button>
+            </div>
+
+            <h3>⏲️ Project 7: Stopwatch</h3>
+            <div class="exercise-box">
+                <p><strong>Description:</strong> একটি stopwatch তৈরি করুন যেখানে time measure করা যাবে।</p>
+                <p><strong>Skills:</strong> setInterval, Date, DOM, Events</p>
+                <p><strong>Time:</strong> ২৫-৩৫ মিনিট</p>
+                <p><strong>Steps:</strong> ৪ টি steps</p>
+                <button class="btn btn-primary" onclick="startGuidedProject('stopwatch')">Start Project →</button>
+            </div>
+
+            <h3>🔄 Project 8: Unit Converter</h3>
+            <div class="exercise-box">
+                <p><strong>Description:</strong> একটি unit converter তৈরি করুন যেখানে different units convert করা যাবে।</p>
+                <p><strong>Skills:</strong> Calculations, DOM, Events, Select</p>
+                <p><strong>Time:</strong> ২০-২৫ মিনিট</p>
+                <p><strong>Steps:</strong> ২ টি steps</p>
+                <button class="btn btn-primary" onclick="startGuidedProject('converter')">Start Project →</button>
+            </div>
+
+            <h3>📝 Project 9: Note Taking App</h3>
+            <div class="exercise-box">
+                <p><strong>Description:</strong> একটি note taking app তৈরি করুন যেখানে notes add, display এবং delete করা যাবে।</p>
+                <p><strong>Skills:</strong> Arrays, DOM, Events, Date</p>
+                <p><strong>Time:</strong> ৩০-৪০ মিনিট</p>
+                <p><strong>Steps:</strong> ২ টি steps</p>
+                <button class="btn btn-primary" onclick="startGuidedProject('notes')">Start Project →</button>
+            </div>
+
+            <h3>🧩 Project 10: Quiz App</h3>
+            <div class="exercise-box">
+                <p><strong>Description:</strong> একটি quiz app তৈরি করুন যেখানে questions answer করে score calculate করা যাবে।</p>
+                <p><strong>Skills:</strong> Arrays, Objects, DOM, Events, Logic</p>
+                <p><strong>Time:</strong> ৪০-৫০ মিনিট</p>
+                <p><strong>Steps:</strong> ৩ টি steps</p>
+                <button class="btn btn-primary" onclick="startGuidedProject('quiz')">Start Project →</button>
+            </div>
+
+            <h3>🍅 Project 11: Pomodoro Timer</h3>
+            <div class="exercise-box">
+                <p><strong>Description:</strong> একটি Pomodoro timer তৈরি করুন যেখানে work এবং break sessions manage করা যাবে।</p>
+                <p><strong>Skills:</strong> setInterval, Logic, DOM, Events</p>
+                <p><strong>Time:</strong> ৪৫-৫৫ মিনিট</p>
+                <p><strong>Steps:</strong> ৩ টি steps</p>
+                <button class="btn btn-primary" onclick="startGuidedProject('pomodoro')">Start Project →</button>
+            </div>
+
+            <div id="guidedProjectContainer" style="display: none; margin-top: 30px;">
+                <div style="background: #f9f9f9; padding: 20px; border-radius: 10px; border: 2px solid #0056b3;">
+                    <h3 id="projectTitle">Project Title</h3>
+                    <div id="projectSteps"></div>
+                    <div style="margin-top: 20px;">
+                        <button class="btn btn-secondary" onclick="previousStep()">← Previous</button>
+                        <button class="btn btn-primary" onclick="nextStep()" style="margin-left: 10px;">Next →</button>
+                        <button class="btn btn-danger" onclick="closeGuidedProject()" style="margin-left: 10px;">Close Project</button>
+                    </div>
+                </div>
+            </div>
+        `
+    },
+    {
+        id: 'code-patterns',
+        title: '🔷 Code Patterns Practice',
+        category: 'Practice',
+        content: `
+            <h2>🔷 JavaScript Code Patterns Practice</h2>
+            <p>Common JavaScript patterns practice করুন এবং এগুলো মুখস্ত করুন। এই patterns real-world projects-এ বারবার ব্যবহার হবে।</p>
+
+            <h3>Pattern 1: Variable Declaration Pattern</h3>
+            <div class="exercise-box">
+                <p><strong>Practice:</strong> let, const, var ব্যবহার করে variables declare করুন</p>
+                <pre><code>// Pattern to practice
+let name = "Saddam";
+const age = 25;
+var city = "Dhaka";</code></pre>
+                <button class="btn btn-primary" onclick="practicePattern('variables')">Practice This Pattern</button>
+            </div>
+
+            <h3>Pattern 2: Function Declaration Pattern</h3>
+            <div class="exercise-box">
+                <p><strong>Practice:</strong> Function declaration, expression, arrow function</p>
+                <pre><code>// Pattern to practice
+function greet(name) {
+    return "Hello, " + name;
+}
+
+const greet2 = function(name) {
+    return "Hi, " + name;
+};
+
+const greet3 = (name) => "Hey, " + name;</code></pre>
+                <button class="btn btn-primary" onclick="practicePattern('functions')">Practice This Pattern</button>
+            </div>
+
+            <h3>Pattern 3: Array Methods Pattern</h3>
+            <div class="exercise-box">
+                <p><strong>Practice:</strong> map, filter, reduce, forEach</p>
+                <pre><code>// Pattern to practice
+let numbers = [1, 2, 3, 4, 5];
+let doubled = numbers.map(n => n * 2);
+let even = numbers.filter(n => n % 2 === 0);
+let sum = numbers.reduce((a, b) => a + b, 0);</code></pre>
+                <button class="btn btn-primary" onclick="practicePattern('arrays')">Practice This Pattern</button>
+            </div>
+
+            <h3>Pattern 4: Object Pattern</h3>
+            <div class="exercise-box">
+                <p><strong>Practice:</strong> Object creation, methods, destructuring</p>
+                <pre><code>// Pattern to practice
+let person = {
+    name: "Saddam",
+    age: 25,
+    greet() {
+        return "Hello, " + this.name;
+    }
+};
+
+let { name, age } = person;</code></pre>
+                <button class="btn btn-primary" onclick="practicePattern('objects')">Practice This Pattern</button>
+            </div>
+
+            <h3>Pattern 5: Async/Await Pattern</h3>
+            <div class="exercise-box">
+                <p><strong>Practice:</strong> async/await, try/catch</p>
+                <pre><code>// Pattern to practice
+async function fetchData() {
+    try {
+        let response = await fetch('url');
+        let data = await response.json();
+        return data;
+    } catch (error) {
+        console.error(error);
+    }
+}</code></pre>
+                <button class="btn btn-primary" onclick="practicePattern('async')">Practice This Pattern</button>
+            </div>
+
+            <div class="alert alert-warning">
+                <strong>⚠️ Remember:</strong> এই patterns বারবার practice করুন যাতে এগুলো আপনার muscle memory-তে চলে আসে!
+            </div>
+        `
+    },
+    {
         id: 'projects',
-        title: '🎨 ১৯. প্রজেক্ট (Projects)',
+        title: '🎨 প্রজেক্ট (Projects)',
         category: 'Projects',
         content: `
             <h2>🎨 প্রজেক্ট তৈরি করুন</h2>
@@ -1388,7 +1886,7 @@ sessionStorage.clear();</code></pre>
     },
     {
         id: 'strings',
-        title: '📝 ২০. Strings & String Methods',
+        title: '📝 Strings & String Methods',
         category: 'বেসিক',
         content: `
             <h2>📝 Strings & String Methods</h2>
@@ -1458,7 +1956,7 @@ console.log(spaced.trim()); // "Hello"</code></pre>
     },
     {
         id: 'date',
-        title: '📅 ২১. Date & Time',
+        title: '📅 Date & Time',
         category: 'বেসিক',
         content: `
             <h2>📅 Date & Time</h2>
@@ -1535,7 +2033,7 @@ console.log(tomorrow);</code></pre>
     },
     {
         id: 'math',
-        title: '🔢 ২২. Math Object',
+        title: '🔢 Math Object',
         category: 'বেসিক',
         content: `
             <h2>🔢 Math Object</h2>
@@ -1604,7 +2102,7 @@ console.log(randomInt(1, 100)); // 1 to 100</code></pre>
     },
     {
         id: 'json',
-        title: '📦 ২৩. JSON',
+        title: '📦 JSON',
         category: 'Advanced',
         content: `
             <h2>📦 JSON (JavaScript Object Notation)</h2>
@@ -1687,7 +2185,7 @@ console.log(usersParsed[0].name); // "Saddam"</code></pre>
     },
     {
         id: 'error-handling',
-        title: '⚠️ ২৪. Error Handling',
+        title: '⚠️ Error Handling',
         category: 'Advanced',
         content: `
             <h2>⚠️ Error Handling (try-catch)</h2>
@@ -1773,7 +2271,7 @@ async function fetchData() {
     },
     {
         id: 'scope-hoisting',
-        title: '📚 ২৫. Scope & Hoisting',
+        title: '📚 Scope & Hoisting',
         category: 'Advanced',
         content: `
             <h2>📚 Scope & Hoisting</h2>
@@ -1859,7 +2357,7 @@ outer();</code></pre>
     },
     {
         id: 'this-keyword',
-        title: '🎯 ২৬. this Keyword',
+        title: '🎯 this Keyword',
         category: 'Advanced',
         content: `
             <h2>🎯 this Keyword</h2>
@@ -1947,7 +2445,7 @@ console.log(obj.arrow()); // undefined</code></pre>
     },
     {
         id: 'closures',
-        title: '🔒 ২৭. Closures',
+        title: '🔒 Closures',
         category: 'Advanced',
         content: `
             <h2>🔒 Closures</h2>
@@ -2034,7 +2532,7 @@ for (var i = 0; i < 3; i++) {
     },
     {
         id: 'regex',
-        title: '🔍 ২৮. Regular Expressions',
+        title: '🔍 Regular Expressions',
         category: 'Advanced',
         content: `
             <h2>🔍 Regular Expressions (Regex)</h2>
@@ -2125,7 +2623,7 @@ console.log(date.split(/[-]/)); // ["2025", "01", "15"]</code></pre>
     },
     {
         id: 'fetch-api',
-        title: '🌐 ২৯. Fetch API',
+        title: '🌐 Fetch API',
         category: 'Advanced',
         content: `
             <h2>🌐 Fetch API</h2>
@@ -2215,7 +2713,7 @@ fetchData();</code></pre>
     },
     {
         id: 'timers',
-        title: '⏰ ৩০. Timers (setTimeout & setInterval)',
+        title: '⏰ Timers (setTimeout & setInterval)',
         category: 'Advanced',
         content: `
             <h2>⏰ Timers</h2>
@@ -2324,7 +2822,7 @@ animate();</code></pre>
     },
     {
         id: 'exercises',
-        title: '📝 ৩১. এক্সারসাইজ (Exercises)',
+        title: '📝 এক্সারসাইজ (Exercises)',
         category: 'Practice',
         content: `
             <h2>📝 প্র্যাকটিস এক্সারসাইজ</h2>

@@ -95,10 +95,66 @@
         </div>
     </div>
 
+    <!-- Floating Code Editor Button -->
+    <button class="floating-code-btn" id="floatingCodeBtn" aria-label="কোড এডিটর খুলুন" title="কোড এডিটর">
+        💻
+    </button>
+
+    <!-- Advanced Code Editor Modal -->
+    <div class="modal advanced-editor-modal" id="advancedEditorModal">
+        <div class="modal-content advanced-modal-content">
+            <div class="modal-header">
+                <h2>💻 স্মার্ট কোড এডিটর</h2>
+                <button class="close-modal" id="closeAdvancedEditor">×</button>
+            </div>
+            <div class="advanced-editor-container">
+                <div class="editor-panel">
+                    <div class="editor-toolbar">
+                        <button id="formatCodeBtn" class="btn btn-small" title="Format Code (Ctrl+/)">📝 Format</button>
+                        <button id="clearEditorBtn" class="btn btn-small" title="Clear Editor">🗑️ Clear</button>
+                        <button id="runEditorBtn" class="btn btn-small btn-primary" title="Run Code (Ctrl+Enter)">▶ Run</button>
+                        <button id="togglePreviewBtn" class="btn btn-small" title="Toggle Preview Panel">👁️ Preview</button>
+                        <div class="toolbar-spacer"></div>
+                        <span class="toolbar-info" title="Keyboard Shortcuts">
+                            <small>💡 Ctrl+/ (Comment) | Ctrl+Enter (Run) | Tab (Indent)</small>
+                        </span>
+                    </div>
+                    <div class="editor-wrapper">
+                        <div class="editor-container">
+                            <div id="editorLineNumbers" class="line-numbers"></div>
+                            <div class="code-editor-wrapper">
+                                <textarea id="advancedCodeEditor" class="advanced-code-editor" placeholder="এখানে আপনার JavaScript কোড লিখুন..." spellcheck="false"></textarea>
+                                <div id="syntaxOverlay" class="syntax-overlay"></div>
+                            </div>
+                        </div>
+                        <div id="autoCompleteList" class="autocomplete-list"></div>
+                    </div>
+                    <div id="errorPanel" class="error-panel"></div>
+                </div>
+                <div class="preview-panel" id="previewPanel">
+                    <div class="preview-header">
+                        <h3>📊 প্রিভিউ</h3>
+                        <button id="togglePreviewPanel" class="btn btn-small">✕</button>
+                    </div>
+                    <div class="preview-content">
+                        <div id="previewOutput" class="preview-output"></div>
+                        <div id="previewConsole" class="preview-console">
+                            <div class="console-header">Console Output:</div>
+                            <div id="consoleOutput" class="console-output"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Scripts -->
     <script src="js/lessons.js"></script>
     <script src="js/playground.js"></script>
+    <script src="js/typing-practice.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/code-editor-enhanced.js"></script>
+    <script src="js/advanced-editor.js"></script>
 </body>
 </html>
 

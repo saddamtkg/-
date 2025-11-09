@@ -73,19 +73,40 @@ function generateTOC() {
         categories[lesson.category].push(lesson);
     });
     
+    // Define category display order
+    const categoryOrder = ['শুরু করুন', 'বেসিক', 'DOM & Events', 'Advanced', 'Practice', 'Projects'];
+    
     // Generate TOC HTML
     let tocHTML = '';
+    categoryOrder.forEach(category => {
+        if (categories[category] && categories[category].length > 0) {
+            tocHTML += `<div class="toc-category">
+                <b>${category}</b>
+            `;
+            
+            categories[category].forEach(lesson => {
+                const isActive = lesson.id === 'welcome' ? 'active' : '';
+                tocHTML += `<a href="#" class="toc-link ${isActive}" data-lesson="${lesson.id}">${lesson.title}</a>`;
+            });
+            
+            tocHTML += `</div>`;
+        }
+    });
+    
+    // Add any remaining categories not in the order list
     Object.keys(categories).forEach(category => {
-        tocHTML += `<div class="toc-category">
-            <b>${category}</b>
-        `;
-        
-        categories[category].forEach(lesson => {
-            const isActive = lesson.id === 'welcome' ? 'active' : '';
-            tocHTML += `<a href="#" class="toc-link ${isActive}" data-lesson="${lesson.id}">${lesson.title}</a>`;
-        });
-        
-        tocHTML += `</div>`;
+        if (!categoryOrder.includes(category)) {
+            tocHTML += `<div class="toc-category">
+                <b>${category}</b>
+            `;
+            
+            categories[category].forEach(lesson => {
+                const isActive = lesson.id === 'welcome' ? 'active' : '';
+                tocHTML += `<a href="#" class="toc-link ${isActive}" data-lesson="${lesson.id}">${lesson.title}</a>`;
+            });
+            
+            tocHTML += `</div>`;
+        }
     });
     
     tocContainer.innerHTML = tocHTML;
