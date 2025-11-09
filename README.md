@@ -8,7 +8,7 @@
 
 **বাংলায় জাভাস্ক্রিপ্ট শেখার সবচেয়ে সহজ এবং সম্পূর্ণ প্ল্যাটফর্ম**
 
-[🌐 Live Demo](https://saddamtkg.github.io/-/) | [📖 Documentation](#-কিভাবে-ব্যবহার-করবেন) | [🚀 Getting Started](#-শুরু-করুন)
+[🌐 Live Demo](https://saddamtkg.github.io/Learn-Javascript-in-Bengali/) | [📖 Documentation](#-কিভাবে-ব্যবহার-করবেন) | [🚀 Getting Started](#-শুরু-করুন)
 
 </div>
 
@@ -107,7 +107,7 @@
 
 ### 🌐 Option 1: Live Website ব্যবহার করুন (সবচেয়ে সহজ)
 
-1. [Live Link](https://saddamtkg.github.io/-/) এ যান
+1. [Live Link](https://saddamtkg.github.io/Learn-Javascript-in-Bengali/) এ যান
 2. শুরু করুন শেখা!
 
 ### 💻 Option 2: স্থানীয়ভাবে ব্যবহার করুন
@@ -116,8 +116,8 @@
 
 **Method A: Git ব্যবহার করে**
 ```bash
-git clone https://github.com/your-username/interactive-js-learning.git
-cd interactive-js-learning
+git clone https://github.com/saddamtkg/Learn-Javascript-in-Bengali.git
+cd Learn-Javascript-in-Bengali
 ```
 
 **Method B: Direct Download**
@@ -145,7 +145,7 @@ cd interactive-js-learning
 2. Settings → Pages
 3. Source: `main` branch, `/ (root)` folder select করুন
 4. Save করুন
-5. কয়েক মিনিট পরে site live: `https://your-username.github.io/interactive-js-learning`
+5. কয়েক মিনিট পরে site live: `https://saddamtkg.github.io/Learn-Javascript-in-Bengali`
 
 **বিস্তারিত guide:** [DEPLOYMENT.md](DEPLOYMENT.md) দেখুন
 
@@ -281,7 +281,7 @@ cd interactive-js-learning
 ## 📁 প্রজেক্ট স্ট্রাকচার
 
 ```
-interactive-js-learning/
+Learn-Javascript-in-Bengali/
 ├── index.html              # Main HTML file - Entry point
 ├── css/
 │   └── style.css          # All styles - Modern CSS with variables
@@ -390,7 +390,7 @@ This project is open source and available under the [MIT License](LICENSE).
 **Saddam** - Created with ❤️ for Bengali JavaScript learners
 
 - GitHub: [@saddamtkg](https://github.com/saddamtkg)
-- Live Demo: [https://saddamtkg.github.io/-/](https://saddamtkg.github.io/-/)
+- Live Demo: [https://saddamtkg.github.io/Learn-Javascript-in-Bengali/](https://saddamtkg.github.io/Learn-Javascript-in-Bengali/)
 
 ## 🙏 Acknowledgments
 
@@ -400,10 +400,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📈 Project Status
 
-![GitHub stars](https://img.shields.io/github/stars/your-username/interactive-js-learning?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/interactive-js-learning?style=social)
-![GitHub issues](https://img.shields.io/github/issues/your-username/interactive-js-learning)
-![GitHub license](https://img.shields.io/github/license/your-username/interactive-js-learning)
+![GitHub stars](https://img.shields.io/github/stars/saddamtkg/Learn-Javascript-in-Bengali?style=social)
+![GitHub forks](https://img.shields.io/github/forks/saddamtkg/Learn-Javascript-in-Bengali?style=social)
+![GitHub issues](https://img.shields.io/github/issues/saddamtkg/Learn-Javascript-in-Bengali)
+![GitHub license](https://img.shields.io/github/license/saddamtkg/Learn-Javascript-in-Bengali)
 
 ## 🌟 Star History
 

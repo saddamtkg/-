@@ -13,7 +13,7 @@
 
 1. GitHub-এ login করুন
 2. "New repository" ক্লিক করুন
-3. Repository name দিন: `interactive-js-learning`
+3. Repository name দিন: `Learn-Javascript-in-Bengali`
 4. Public select করুন
 5. "Create repository" ক্লিক করুন
 
@@ -30,7 +30,7 @@ git add .
 git commit -m "Initial commit: Interactive JavaScript Learning Platform"
 
 # Add remote repository
-git remote add origin https://github.com/your-username/interactive-js-learning.git
+git remote add origin https://github.com/saddamtkg/Learn-Javascript-in-Bengali.git
 
 # Push to GitHub
 git branch -M main
@@ -50,7 +50,7 @@ git push -u origin main
 
 কয়েক মিনিট পরে আপনার site live হবে:
 ```
-https://your-username.github.io/interactive-js-learning
+https://saddamtkg.github.io/Learn-Javascript-in-Bengali
 ```
 
 ## 🌐 Option 2: Netlify (Free & Fast)

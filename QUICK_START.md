@@ -13,7 +13,7 @@
 
 #### 1. GitHub Repository তৈরি করুন
 - GitHub.com → New repository
-- Name: `interactive-js-learning`
+- Name: `Learn-Javascript-in-Bengali`
 - Public select করুন
 - Create করুন
 
@@ -21,7 +21,7 @@
 
 ```bash
 # Navigate to project folder
-cd path/to/interactive-js-learning
+cd path/to/Learn-Javascript-in-Bengali
 
 # Initialize git (if not already)
 git init
@@ -33,7 +33,7 @@ git add .
 git commit -m "Initial commit"
 
 # Add remote (replace YOUR-USERNAME)
-git remote add origin https://github.com/YOUR-USERNAME/interactive-js-learning.git
+git remote add origin https://github.com/saddamtkg/Learn-Javascript-in-Bengali.git
 
 # Push to GitHub
 git branch -M main
@@ -47,7 +47,7 @@ git push -u origin main
 
 #### 4. Get Live URL
 ```
-https://YOUR-USERNAME.github.io/interactive-js-learning
+https://saddamtkg.github.io/Learn-Javascript-in-Bengali
 ```
 
 ## ⏱️ Total Time: ~5 minutes

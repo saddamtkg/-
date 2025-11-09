@@ -13,7 +13,7 @@
 1. GitHub-এ login করুন
 2. ডানদিকের উপরে **"+"** icon → **"New repository"** ক্লিক করুন
 3. Repository details:
-   - **Repository name**: `interactive-js-learning` (বা আপনার পছন্দমতো নাম)
+   - **Repository name**: `Learn-Javascript-in-Bengali` (বা আপনার পছন্দমতো নাম)
    - **Description**: "বাংলায় জাভাস্ক্রিপ্ট শেখার ইন্টার‌্যাক্টিভ প্ল্যাটফর্ম"
    - **Public** select করুন (GitHub Pages free-এর জন্য Public প্রয়োজন)
    - **README.md** check করবেন না (আমরা ইতিমধ্যে তৈরি করেছি)
@@ -39,7 +39,7 @@ git add .
 git commit -m "Initial commit: Interactive JavaScript Learning Platform"
 
 # GitHub repository-এর URL add করুন (আপনার username দিয়ে replace করুন)
-git remote add origin https://github.com/YOUR-USERNAME/interactive-js-learning.git
+git remote add origin https://github.com/saddamtkg/Learn-Javascript-in-Bengali.git
 
 # Main branch-এ push করুন
 git branch -M main
@@ -74,13 +74,13 @@ git push -u origin main
 
 তারপর আপনার site live হবে:
 ```
-https://YOUR-USERNAME.github.io/interactive-js-learning
+https://saddamtkg.github.io/Learn-Javascript-in-Bengali
 ```
 
 **Example:**
 যদি আপনার username `saddam` হয়, তাহলে URL হবে:
 ```
-https://saddam.github.io/interactive-js-learning
+https://saddamtkg.github.io/Learn-Javascript-in-Bengali
 ```
 
 ## ✅ Verification
